@@ -21,11 +21,11 @@
   "ip": "mcborder.com",
   "port": 25565,
   "version": "1.21.8",
-  "username": "你的微軟帳號@email.com",
+  "username": "你的微軟ID",
   "auth": "microsoft",          // microsoft 或 offline
   "language": "zh-tw",
-  "whitelist": ["Konenala21"],
-  "moneyTransferTarget": "Konenala21"
+  "whitelist": ["ID1", "ID2"],
+  "moneyTransferTarget": "ID"
 }
 ```
 > 路徑優先序：`--config=<path>` > 環境變數 `BOT_CONFIG_PATH` > 預設（pkg: 執行檔同層；開發: 專案根 / 工作目錄）。

@@ -2,12 +2,12 @@
   "ip": "mcborder.com",
   "port": 25565,
   "version": "1.21.8",
-  "username": "YourBotMicrosoftAccount@email.com",
+  "username": "YourBotMicrosoftAccountname",
   "auth": "microsoft",
   "language": "zh-tw",
   "whitelist": [
-    "Konenala21",
-    "hoto_kokoyu"
+    "ID1",
+    "ID2"
   ],
-  "moneyTransferTarget": "Konenala21"
+  "moneyTransferTarget": "ID"
 }

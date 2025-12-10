@@ -1,0 +1,13 @@
+{
+  "ip": "mcborder.com",
+  "port": 25565,
+  "version": "1.21.8",
+  "username": "YourBotMicrosoftAccount@email.com",
+  "auth": "microsoft",
+  "language": "zh-tw",
+  "whitelist": [
+    "Konenala21",
+    "hoto_kokoyu"
+  ],
+  "moneyTransferTarget": "Konenala21"
+}

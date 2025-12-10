@@ -1,0 +1,25 @@
+{
+  "name": "bot-project",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js",
+    "build": "pkg . --targets node18-win-x64 --output dist/bot.exe"
+  },
+  "bin": "src/main.js",
+  "pkg": {
+    "assets": [
+      "node_modules/minecraft-data/data/**/*",
+      "node_modules/prismarine-provider-anvil/anvil/**/*"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mineflayer": "^4.33.0",
+    "mineflayer-collectblock": "^1.6.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
